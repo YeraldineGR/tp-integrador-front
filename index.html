@@ -44,7 +44,7 @@
                                   
               <div class="d-grid gap-2 d-sm-flex justify-content-sm-end">
                 <a class="btn btn-outline-light btn-lg px-4" href="#formulario" role="button">Quiero ser orador</a>
-                <a class="btn text-light btn-lg px-4 gap-3" id="buttongreenA" href="#" role="button">Comprar tickets</a>                      
+                <a class="btn text-light btn-lg px-4 gap-3" id="buttongreenA" href="#comprar tickets" role="button">Comprar tickets</a>                      
               </div>                   
             </div>
           </div>    
@@ -239,12 +239,12 @@
 
           <div class="col-6 mb-3">
             <label for="exampleInputCantidad1" class="form-label">Cantidad</label>
-            <input type="text" class="form-control" placeholder="Cantidad">
+            <input type="text" class="form-control" placeholder="Cantidad" id="cantidad">
           </div>
 
           <div class="col-6 mb-3">
             <label for="exampleInputCategoria" class="form-label">Categoria</label>
-            <select id="ImputSelect" class="form-select">
+            <select id="ImputSelect" class="form-select" id="categoria">
               <option value="1">Estudiante</option>
               <option value="2">Trainee</option>
               <option value="3">Junior</option>
@@ -254,17 +254,17 @@
                 
         </div>
           
-        <div class="p-3 mb-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+        <div class="p-3 mb-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3" id="caja" >
             Total a pagasr: $
         </div>
 
         <div class="row">
           <div class="col-6 mb-3"> 
-            <button class="w-100 btn text-light btn-lg" id="buttongreenB" type="submit">Borrar</button>
+            <button class="w-100 btn text-light btn-lg" id="buttongreenB" id="borrar" type="submit">Borrar</button>
           </div>
 
           <div class="col-6 mb-3"> 
-            <button class="w-100 btn text-light btn-lg" id="buttongreenB" type="submit">Resumen</button>
+            <button class="w-100 btn text-light btn-lg" id="buttongreenB" id="resumen" type="submit">Resumen</button>
           </div>
         </div>
       </div>      
@@ -290,5 +290,8 @@
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
+    <script src="JavaScript.js"></script>
+
   </body>
 </html>
