@@ -35,9 +35,14 @@
 }
 
 
-#buttongreenB {
+#buttongreenB1 {
   background-color: rgb(92, 187, 48);
 }
+
+#buttongreenB2 {
+  background-color: rgb(92, 187, 48);
+}
+
 
 #boxform {
   width: 750px;
